@@ -20,7 +20,7 @@ if [  -d $APPLICATION_GITHUB_DIRECTORY ];then
 fi
 echo "##################################################################"
 echo "Cloning repo $GIT_REPO"
-cd $BASE
+cd $BASE/angular-app
 git clone $GIT_REPO
 
 echo "install packages"
